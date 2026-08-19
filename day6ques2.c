@@ -12,8 +12,6 @@ int main(){
              printf("n is positive");
          }
      }
-     
-    
     elseif(n<0){
       printf("n is negative number");  
     }
