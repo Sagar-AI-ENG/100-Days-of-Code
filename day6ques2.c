@@ -4,18 +4,19 @@ int main(){
     int n;
     printf("enter n:");
     scanf("%d",&n);
-if(n>0){ 
-    printf("n is positive number");
-}
- else{
-    if(n<0){
+ if(n>=0){
+     if(n==0){
+    printf("n is zero");
+     }
+         else{
+             printf("n is positive");
+         }
+     }
+     
+    
+    elseif(n<0){
       printf("n is negative number");  
     }
-    else{
-            printf("n is zero number");
-        }
-    }
- 
  return 0;
 
 }
